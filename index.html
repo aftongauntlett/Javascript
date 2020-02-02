@@ -3,62 +3,55 @@
 
 <head>
     <title>My First JS</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
-    <center>
-        <br/>
-        <br/>
-        <br/>
+    <div id="page-wrap">
+
         <p>Engage!</p>
+
         <body style="background-color:#a3948f"></body>
-        
-        <div id="mouse" onmouseover="mOver(this)" onmouseout="mOut(this)"
-        style="background-color:#D94A38;width:120px;height:20px;padding:40px;">
-        Mouse Over Me</div>
-        
-        <div id="box" style="height:150px; width:150px; background-color:orange; margin:25px"></div>
-        
+
+        <div class="center" id="mouse" onmouseover="mOver(this)" onmouseout="mOut(this)"
+            style="background-color:#D94A38;width:120px;height:20px;padding:40px;">
+            Mouse Over Me</div>
+
+        <div class="box-styles center" id="box"></div>
+
         <button id="button1">Grow</button>
         <button id="button2">Blue</button>
         <button id="button3">Purple</button>
         <button id="button4">Fade</button>
-        <button id="button5">Reset</button>
-        <br />
-        <br />
+        <button id="button5">Reset</button> 
+        <div class="spacer"></div>
+
         <div id="time"></div>
-        <br/>
+
         <button id="button6">What's the time?</button>
-        <br />
-        <br />
-        <br />
-        
-        
-        <div id="circle" style="width: 200px; height: 200px; background-color: orange; border-radius: 100px;"></div>
-        <br />
-        <br />
+        <div class="spacer"></div>
+
+        <div class="center" id="circle" style="width: 200px; height: 200px; background-color: orange; border-radius: 100px;"></div>
+        <div class="spacer"></div>
+
         <button id="button8">Blue</button>
         <button id="button9">Purple</button>
         <button id="button10">Fade</button>
         <button id="button11">Reset</button>
-        <br/>
-        <br/>
-        <br/>
-        
-        
-        <button id="lightBulbOnButton">Turn on the light</button>
-        <img id="lightbulb" src="https://www.w3schools.com/js/pic_bulboff.gif" style="width:100px">
-        <button id="lightBulbOffButton">Turn off the light</button>
-        
-        <br/>
-        <br />
-        <br/>
-        
-        
+        <div class="spacer"></div>
+
+        <div>
+            <img id="lightbulb" src="https://www.w3schools.com/js/pic_bulboff.gif" style="width:100px">
+            <div>
+                <button id="lightBulbOnButton">Turn on the light</button>
+                <button id="lightBulbOffButton">Turn off the light</button>
+
+            </div>
+        </div>
+
         <script type="text/javascript" src="javascript.js"></script>
-        
-        
-    </center>
+    </div>
+
 </body>
 
 </html>
