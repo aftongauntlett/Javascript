@@ -1,21 +1,64 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Jiggle Into JavaScript</title>
+    <title>My First JS</title>
     <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
 </head>
+
 <body>
+<center>
+    <br/>
+    <br/>
+    <br/>
+        <p>Engage!</p>
+        <body style="background-color:#a3948f"></body>
 
-    <p>Press the buttons to change the box!</p>
+        <div id="mouse" onmouseover="mOver(this)" onmouseout="mOut(this)"
+            style="background-color:#D94A38;width:120px;height:20px;padding:40px;">
+            Mouse Over Me</div>
 
-    <div id="box" style="height:150px; width:150px; background-color:orange; margin:25px"></div>
+        <div id="box" style="height:150px; width:150px; background-color:orange; margin:25px"></div>
 
-    <button id="button1">Grow</button>
-    <button id="button2">Blue</button>
-    <button id="button3">Fade</button>
-    <button id="button4">Reset</button>
+        <button id="button1">Grow</button>
+        <button id="button2">Blue</button>
+        <button id="button3">Purple</button>
+        <button id="button4">Fade</button>
+        <button id="button5">Reset</button>
+        <br />
+        <br />
+        <div id="time"></div>
+        <br/>
+        <button id="button6">What's the time?</button>
+        <br />
+        <br />
+        <!-- <button onclick="getElementById('button7').innerHTML = Date()">What is the time?</button> -->
+        <br />
+        <br />
 
-    <script type="text/javascript" src="javascript.js"></script>
+        <div id="circle" style="width: 200px; height: 200px; background-color: orange; border-radius: 100px;"></div>
+        <br />
+        <br />
+        <button id="button8">Blue</button>
+        <button id="button9">Purple</button>
+        <button id="button10">Fade</button>
+        <button id="button11">Reset</button>
+        <br />
+        <br />
 
+        
+        <button onclick>Turn on the light</button>
+        <img id="lightbulb" src="https://www.w3schools.com/js/pic_bulbon.gif" style="width:100px">
+
+        <button onclick>Turn off the light</button>
+        <img id="lightbulb" src="https://www.w3schools.com/js/pic_bulboff.gif" style="width:100px">
+        
+
+
+        <script type="text/javascript" src="javascript.js"></script>
+
+
+</center>
 </body>
+
 </html>
